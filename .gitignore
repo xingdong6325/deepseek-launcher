@@ -1,0 +1,28 @@
+# 运行期数据 / 敏感信息，绝不入库
+state.json
+launcher.log
+*.log
+
+# 测试残留
+selftest.txt
+painttest.txt
+functest.txt
+ui_dump.txt
+ui_rects.json
+op.lock
+_probe_test/
+
+# 浏览器登录态 / 缓存
+browser_profile_dsh/
+browser_profile_web/
+
+# dsh 运行环境（程序本体 + 配置，含密钥）
+home/
+npm-global/
+node_modules/
+
+# 临时文件
+_start.vbs
+*.png
+*.bak
+发布/
